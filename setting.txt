@@ -1,0 +1,3 @@
+ColorBg:White
+ColorFg:Black
+ColorFg:White

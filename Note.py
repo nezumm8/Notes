@@ -68,8 +68,6 @@ def list_files():
     files_list = []
     
     for root_dir, dirs, files in os.walk(current_folder):
-        for dir_name in dirs:
-            files_list.append(f"folder:{dir_name}")
         for file in files:
             if file.endswith('.txt'):
                 files_list.append(file)
@@ -133,7 +131,7 @@ def tabs(listx):
     btn_deletex.place(x=7*button_width, y=0, width=button_width, height=button_height)
 
 def open_folder(folder_name):
-    print(f"Открытие папки: {folder_name}")
+    print(f"Вiдкриття папки: {folder_name}")
     pass
 
 def delete_file():
